@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "Boxld : mono",
+    "name": "mono",
     "renderType": "multianimateatlas",
     "assetPath": "characters/mono",
     "offsets": [0,0],
