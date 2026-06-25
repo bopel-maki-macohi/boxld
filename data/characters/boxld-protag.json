@@ -11,7 +11,8 @@
     "healthIcon": {
       "id": "protag",
       "scale": 0.5,
-      "isPixel": true
+      "isPixel": true,
+      "offsets": [-50, 0]
     },
     "flipX": true,
     "animations": [
