@@ -13,9 +13,9 @@
   "characters": {
    "player": "boxld-protag",
    "girlfriend": "boxld-damsi",
-   "opponent": "boxld-mono",
+   "opponent": "boxld-yik",
    "opponentVocals": [
-    "boxld-mono"
+    "boxld-yik"
    ],
    "playerVocals": [
     "boxld-protag"
