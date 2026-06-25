@@ -10,8 +10,10 @@
     },
     "healthIcon": {
       "id": "protag",
+      "scale": 0.5,
       "isPixel": true
     },
+    "flipX": true,
     "animations": [
         { "name": "idle", "prefix": "idle" },
         { "name": "singLEFT", "prefix": "singLEFT" },
