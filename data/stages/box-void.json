@@ -1,9 +1,10 @@
 {
    "version": "1.0.2",
-   "name": "Monday Void",
+   "name": "BoxLD: Void",
    "props": [
       {
          "assetPath": "#FFFFFF",
+         "zIndex": 0,
          "atlasSettings": null,
          "isPixel": true,
          "name": "void",

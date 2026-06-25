@@ -21,7 +21,7 @@
     "boxld-protag"
    ]
   },
-  "stage": "box-void",
+  "stage": "box-coreRoot",
   "noteStyle": "funkin",
   "ratings": {
    "easy": 3,
