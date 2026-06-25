@@ -18,5 +18,8 @@
   "songs": [
     "collapsed"
   ],
-  "visible": false
+  "visible": false,
+  "capsule": {
+    "name": "boxld 2"
+  }
 }
