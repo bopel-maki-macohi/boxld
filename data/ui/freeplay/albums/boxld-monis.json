@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "BoxLD : Monis",
+  "artists": ["Maki"],
+  "albumArtAsset": "freeplay/albumRoll/boxld-monis",
+  "albumTitleAsset": "freeplay/albumRoll/empty",
+  "albumTitleOffsets": [90000, 0]
+}
