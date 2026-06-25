@@ -16,6 +16,7 @@
   ],
   "background": "#FFFFFF",
   "songs": [
-    "monis"
-  ]
+    "collapsed"
+  ],
+  "visible": false
 }
