@@ -1,0 +1,38 @@
+{
+ "version": "2.2.4",
+ "songName": "Monis",
+ "artist": "Maki",
+ "charter": "Maki",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "boxld-protag",
+   "girlfriend": "boxld-damsi",
+   "opponent": "boxld-mono",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "mainStage",
+  "noteStyle": "funkin",
+  "ratings": {
+   "normal": 2
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 100,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

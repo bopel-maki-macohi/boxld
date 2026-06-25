@@ -1,7 +1,9 @@
-*.swf
+**.swf
 RECOVER_**
 
 dev/songs/**/Backups/**
 dev/songs/**/Ableton Project Info/**
 dev/songs/**/**.ini
-dev/songs/**/**.wav
+dev/songs/**.**
+
+**.asd
