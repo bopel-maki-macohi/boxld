@@ -4,10 +4,7 @@
     "renderType": "multianimateatlas",
     "assetPath": "characters/damsi",
     "offsets": [0,0],
-    "cameraOffsets": [0,0],
-    "death": {
-        "cameraOffsets": [0,0]
-    },
+    "cameraOffsets": [0,-100],
     "healthIcon": {
       "id": "damsi",
       "scale": 0.5,

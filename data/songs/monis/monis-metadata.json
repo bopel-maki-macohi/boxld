@@ -13,13 +13,13 @@
    "girlfriend": "boxld-damsi",
    "opponent": "boxld-mono",
    "opponentVocals": [
-    "dad"
+    "boxld-mono"
    ],
    "playerVocals": [
-    "bf"
+    "boxld-protag"
    ]
   },
-  "stage": "mainStage",
+  "stage": "box-void",
   "noteStyle": "funkin",
   "ratings": {
    "normal": 2

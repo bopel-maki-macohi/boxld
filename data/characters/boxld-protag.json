@@ -4,9 +4,9 @@
     "renderType": "multianimateatlas",
     "assetPath": "characters/protag",
     "offsets": [0,0],
-    "cameraOffsets": [0,0],
+    "cameraOffsets":[0,800],
     "death": {
-        "cameraOffsets": [0,0]
+        "cameraOffsets": [0,800]
     },
     "healthIcon": {
       "id": "protag",

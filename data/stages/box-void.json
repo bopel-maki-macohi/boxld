@@ -1,0 +1,60 @@
+{
+   "version": "1.0.2",
+   "name": "Monday Void",
+   "props": [
+      {
+         "assetPath": "#FFFFFF",
+         "atlasSettings": null,
+         "isPixel": true,
+         "name": "void",
+         "position": [
+            -640,
+            -360
+         ],
+         "scale": [
+            2560,
+            1440
+         ],
+         "scroll": [
+            0,
+            0
+         ],
+         "startingAnimation": ""
+      }
+   ],
+   "characters": {
+      "bf": {
+         "cameraOffsets": [
+            0,
+            0
+         ],
+         "position": [
+            300,
+            0
+         ],
+         "zIndex": 300
+      },
+      "dad": {
+         "cameraOffsets": [
+            0,
+            0
+         ],
+         "position": [
+            -300,
+            0
+         ],
+         "zIndex": 200
+      },
+      "gf": {
+         "cameraOffsets": [
+            0,
+            0
+         ],
+         "position": [
+            0,
+            0
+         ],
+         "zIndex": 100
+      }
+   }
+}

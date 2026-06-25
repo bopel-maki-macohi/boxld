@@ -8,7 +8,12 @@
    "t": 0,
    "e": "FocusCamera",
    "v": {
-	"char": 0
+	"x": 0,
+	"duration": 4,
+	"y": 0,
+	"char": 2,
+	"ease": "CLASSIC",
+	"easeDir": "In"
 }
   },
   {
@@ -29,7 +34,7 @@
    "t": 7200,
    "e": "FocusCamera",
    "v": {
-	"char": 0
+	"char": 2
 }
   },
   {
@@ -44,6 +49,69 @@
    "e": "FocusCamera",
    "v": {
 	"char": 0
+}
+  },
+  {
+   "t": 14400,
+   "e": "FocusCamera",
+   "v": {
+	"char": 2
+}
+  },
+  {
+   "t": 15300,
+   "e": "FocusCamera",
+   "v": {
+	"char": 0
+}
+  },
+  {
+   "t": 16800,
+   "e": "FocusCamera",
+   "v": {
+	"char": 2
+}
+  },
+  {
+   "t": 17700,
+   "e": "FocusCamera",
+   "v": {
+	"char": 1
+}
+  },
+  {
+   "t": 19350,
+   "e": "FocusCamera",
+   "v": {
+	"char": 0
+}
+  },
+  {
+   "t": 20400,
+   "e": "FocusCamera",
+   "v": {
+	"char": 2
+}
+  },
+  {
+   "t": 21300,
+   "e": "FocusCamera",
+   "v": {
+	"char": 1
+}
+  },
+  {
+   "t": 22050,
+   "e": "FocusCamera",
+   "v": {
+	"char": 0
+}
+  },
+  {
+   "t": 22500,
+   "e": "FocusCamera",
+   "v": {
+	"char": 2
 }
   }
  ],
