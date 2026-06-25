@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "Boxld : mono",
+    "renderType": "multianimateatlas",
+    "assetPath": "characters/mono",
+    "offsets": [0,0],
+    "cameraOffsets": [0,0],
+    "death": {
+        "cameraOffsets": [0,0]
+    },
+    "healthIcon": {
+      "id": "mono",
+      "isPixel": true
+    },
+    "animations": [
+        { "name": "idle", "prefix": "idle" },
+        { "name": "singLEFT", "prefix": "singLEFT" },
+        { "name": "singDOWN", "prefix": "singDOWN" },
+        { "name": "singUP", "prefix": "singUP" },
+        { "name": "singRIGHT", "prefix": "singRIGHT" }
+    ]
+}

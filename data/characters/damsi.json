@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "name": "Boxld : damsi",
+    "renderType": "multianimateatlas",
+    "assetPath": "characters/damsi",
+    "offsets": [0,0],
+    "cameraOffsets": [0,0],
+    "death": {
+        "cameraOffsets": [0,0]
+    },
+    "healthIcon": {
+      "id": "damsi",
+      "isPixel": true
+    },
+    "animations": [
+        { "name": "danceLeft", "prefix": "danceLeft" },
+        { "name": "danceRight", "prefix": "danceRight" }
+    ]
+}

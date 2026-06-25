@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "name": "Boxld : protag",
+    "renderType": "multianimateatlas",
+    "assetPath": "characters/protag",
+    "offsets": [0,0],
+    "cameraOffsets": [0,0],
+    "death": {
+        "cameraOffsets": [0,0]
+    },
+    "healthIcon": {
+      "id": "protag",
+      "isPixel": true
+    },
+    "animations": [
+        { "name": "idle", "prefix": "idle" },
+        { "name": "singLEFT", "prefix": "singLEFT" },
+        { "name": "singDOWN", "prefix": "singDOWN" },
+        { "name": "singUP", "prefix": "singUP" },
+        { "name": "singRIGHT", "prefix": "singRIGHT" },
+        { "name": "singLEFTmiss", "prefix": "singLEFTmiss" },
+        { "name": "singDOWNmiss", "prefix": "singDOWNmiss" },
+        { "name": "singUPmiss", "prefix": "singUPmiss" },
+        { "name": "singRIGHTmiss", "prefix": "singRIGHTmiss" },
+        { "name": "firstDeath", "prefix": "firstDeath" },
+        { "name": "deathLoop", "prefix": "deathLoop" },
+        { "name": "deathConfirm", "prefix": "deathConfirm" }
+    ]
+}
