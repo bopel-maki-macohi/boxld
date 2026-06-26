@@ -1,6 +1,6 @@
 {
    "version": "1.0.2",
-   "name": "BoxLD : Core Root",
+   "name": "BoxLD : Core Halrook",
    "props": [
       {
          "assetPath": "#000000",
@@ -45,87 +45,46 @@
          "animations": []
       },
       {
-         "zIndex": 10,
+         "zIndex": 30,
          "position": [
-            -580,
-            -360
+            -850,
+            -180
          ],
          "name": "backRocks",
-         "assetPath": "stages/coreRoot/backRocks",
+         "assetPath": "stages/coreHalrook/backRocks",
          "scroll": [
             0.5,
             0.5
          ]
       },
       {
-         "zIndex": 20,
+         "zIndex": 60,
          "position": [
-            -1000,
-            -240
+            -1280,
+            -220
          ],
          "name": "rocks",
-         "assetPath": "stages/coreRoot/rocks",
+         "assetPath": "stages/coreHalrook/rocks",
          "scroll": [
             1,
             1
          ]
       },
       {
-         "zIndex": 30,
-         "position": [
-            -1940,
-            -320
-         ],
-         "name": "floatingRock1",
-         "assetPath": "stages/coreRoot/floatingRock",
-         "scroll": [
-            1.1,
-            1.1
-         ]
-      },
-      {
-         "zIndex": 30,
-         "position": [
-            1280,
-            -320
-         ],
-         "angle": 90,
-         "name": "floatingRock2",
-         "assetPath": "stages/coreRoot/floatingRock",
-         "scroll": [
-            1.1,
-            1.1
-         ]
-      },
-      {
-         "zIndex": 1,
+         "zIndex": 61,
          "position": [
             -1280,
-            -320
+            100
          ],
-         "name": "backFloatingRock1",
-         "assetPath": "stages/coreRoot/backFloatingRock",
+         "name": "rocks",
+         "assetPath": "stages/coreHalrook/rocks",
          "scroll": [
-            0.4,
-            0.4
-         ]
-      },
-      {
-         "zIndex": 2,
-         "position": [
-            1400,
-            -320
-         ],
-         "angle": 90,
-         "name": "backFloatingRock2",
-         "assetPath": "stages/coreRoot/backFloatingRock",
-         "scroll": [
-            0.4,
-            0.4
+            1,
+            1
          ]
       }
    ],
-   "cameraZoom": 0.5,
+   "cameraZoom": 0.8,
    "characters": {
       "bf": {
          "cameraOffsets": [
