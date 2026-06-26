@@ -78,7 +78,7 @@ class BoxCollapsedSong extends Song
 			var nenePos:Array<Float> = [gf.cameraFocusPoint.x, gf.cameraFocusPoint.y];
 			var darnellPos:Array<Float> = [dad.cameraFocusPoint.x, dad.cameraFocusPoint.y];
 
-			var protagFall = FunkinSprite.createTextureAtlas(bf.x - 118, bf.y - 445, 'cutscenes/collapsed-intro-protag-fall');
+			var protagFall = FunkinSprite.createTextureAtlas(bf.x - 117, bf.y - 446, 'cutscenes/collapsed-intro-protag-fall');
 			protagFall.zIndex = bf.zIndex - 1;
 			protagFall.anim.addByFrameLabel('fall', 'fall', 24, false);
 			protagFall.anim.addByFrameLabel('idle', 'idle', 24, false);

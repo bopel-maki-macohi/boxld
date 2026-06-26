@@ -16,6 +16,6 @@ class BoxCoreHalrookStage extends Stage
 
 		time += event.elapsed;
 
-		getNamedProp('backRocks').y = -220 + (Math.cos(time) * 16);
+		getNamedProp('backRocks').y = -180 + (Math.cos(time) * 16);
 	}
 }
