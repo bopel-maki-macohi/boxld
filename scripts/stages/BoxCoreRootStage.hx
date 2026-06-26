@@ -14,11 +14,11 @@ class BoxCoreRootStage extends Stage
 	var floatingRockStartY:Array<Float> = [];
 	var backFloatingRockStartY:Array<Float> = [];
 
-	var rockYOff:Array<Float> = [25,80];
-	var backRockYOff:Array<Float> = [40,-80];
+	var rockYOff:Array<Float> = [25, 80];
+	var backRockYOff:Array<Float> = [40, -80];
 
-	var rockTimeShit:Array<Float> = [80,40];
-	var backRockTimeShit:Array<Float> = [10,25];
+	var rockTimeShit:Array<Float> = [80, 40];
+	var backRockTimeShit:Array<Float> = [10, 25];
 
 	public function onCreate(event):Void
 	{
@@ -33,27 +33,29 @@ class BoxCoreRootStage extends Stage
 			backFloatingRockStartY.push(prop.y);
 		});
 
-        // trace(floatingRockStartY);
-        // trace(backFloatingRockStartY);
+		// trace(floatingRockStartY);
+		// trace(backFloatingRockStartY);
 	}
 
-    var time:Float = 0;
+	var time:Float = 0;
 
 	public function onUpdate(event):Void
 	{
 		super.onUpdate(event);
 
-        time += event.elapsed;
+		time += event.elapsed;
+
+		getNamedProp('backRocks').y = -360 + (Math.cos(time) * 32);
 
 		forEachFloatingRock(function(prop, id)
 		{
-            prop.y = floatingRockStartY[id] + rockYOff[id] + (Math.cos(time) * rockTimeShit[id]);
+			prop.y = floatingRockStartY[id] + rockYOff[id] + (Math.cos(time) * rockTimeShit[id]);
 		});
 		forEachBackFloatingRock(function(prop, id)
 		{
-            prop.y = backFloatingRockStartY[id] + backRockYOff[id] + (Math.cos(time) * backRockTimeShit[id]);
+			prop.y = backFloatingRockStartY[id] + backRockYOff[id] + (Math.cos(time) * backRockTimeShit[id]);
 		});
-    }
+	}
 
 	function forEachFloatingRock(method:StageProp->Int->Void)
 	{

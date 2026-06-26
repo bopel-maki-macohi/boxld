@@ -31,10 +31,10 @@ class BoxCollapsedSong extends Song
 	{
 		super.onCountdownStart(event);
 
-		// if (!PlayStatePlaylist.isStoryMode)
-		// {
-		// 	hasPlayedInGameCutscene = true;
-		// }
+		if (!PlayStatePlaylist.isStoryMode)
+		{
+			hasPlayedInGameCutscene = true;
+		}
 
 		FlxTween.cancelTweensOf(PlayState.instance.camHUD);
 		PlayState.instance.camHUD.alpha = 1;
