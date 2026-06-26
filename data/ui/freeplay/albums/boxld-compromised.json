@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "BoxLD : Compromised",
+  "artists": ["Maki"],
+  "albumArtAsset": "freeplay/albumRoll/boxld-compromised",
+  "albumTitleAsset": "freeplay/albumRoll/empty",
+  "albumTitleOffsets": [90000, 0]
+}
