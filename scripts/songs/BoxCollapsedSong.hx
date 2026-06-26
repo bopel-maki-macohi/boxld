@@ -86,6 +86,13 @@ class BoxCollapsedSong extends Song
 			// bf.alpha = 0.5;
 
 			protagFall.anim.play('idle', true);
+			protagFall.anim.onFrameChange.add(function(anim, frame)
+			{
+				if (anim == 'fall' && frame == 5)
+				{
+					FunkinSound.playOnce(Paths.sound('boxld/cutscenes/rockLand'), 1.0);
+				}
+			});
 			protagFall.anim.onFinish.add(function(anim)
 			{
 				if (anim == 'fall')
