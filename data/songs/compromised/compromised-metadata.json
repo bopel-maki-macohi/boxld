@@ -1,0 +1,41 @@
+{
+ "version": "2.2.4",
+ "songName": "Compromised",
+ "artist": "Maki",
+ "charter": "Maki",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "boxld-protag-shadow",
+   "opponent": "boxld-yik-shadow",
+   "opponentVocals": [
+    "dad"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "box-voidBLK",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 3,
+   "normal": 3,
+   "hard": 3
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 130,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

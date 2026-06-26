@@ -1,6 +1,7 @@
 # 0.2.0 - 6/25/2026
 
 - Added Chapter 2
+    - New Song: Compromised ([Song Base](https://youtu.be/1YqDUbD3PvI?si=Ai0i5TUSnjKO7JFH))
     - New Song: Collapsed
 
 - All charts have been updated to account for mobile a lil bit
