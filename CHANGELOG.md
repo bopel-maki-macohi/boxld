@@ -3,6 +3,7 @@
 - Added Chapter 2
     - New Song: Collapsed
 
+- All charts have been updated to account for mobile a lil bit
 - All (BoxLD) Song Previews are now the full song
 - Changed Box week to BoxLD Chapter 1
 
