@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "name": "protag-takenover",
+    "renderType": "multianimateatlas",
+    "assetPath": "characters/protag-takenover",
+    "offsets": [0,0],
+    "cameraOffsets":[0,0],
+    "death": {
+        "cameraOffsets": [0,0]
+    },
+    "healthIcon": {
+      "id": "yik",
+      "scale": 0.5,
+      "isPixel": true,
+      "offsets": [-50, 0]
+    },
+    "flipX": true,
+    "animations": [
+        { "name": "idle", "prefix": "idle" },
+        { "name": "singLEFT", "prefix": "singLEFT" },
+        { "name": "singDOWN", "prefix": "singDOWN" },
+        { "name": "singUP", "prefix": "singUP" },
+        { "name": "singRIGHT", "prefix": "singRIGHT" },
+        { "name": "singLEFTmiss", "prefix": "singLEFTmiss" },
+        { "name": "singDOWNmiss", "prefix": "singDOWNmiss" },
+        { "name": "singUPmiss", "prefix": "singUPmiss" },
+        { "name": "singRIGHTmiss", "prefix": "singRIGHTmiss" },
+        { "name": "firstDeath", "prefix": "firstDeath" },
+        { "name": "deathLoop", "prefix": "deathLoop" },
+        { "name": "deathConfirm", "prefix": "deathConfirm" }
+    ]
+}
