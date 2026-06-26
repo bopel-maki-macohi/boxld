@@ -4,6 +4,7 @@
     - New Song: Compromised ([Song Base](https://youtu.be/1YqDUbD3PvI?si=Ai0i5TUSnjKO7JFH))
     - New Song: Collapsed
 
+- When hitting a note on a BoxLD song the previous combo popups will now vanish
 - All charts have been updated to account for mobile a lil bit
 - All (BoxLD) Song Previews are now the full song
 - Changed Box week to BoxLD Chapter 1
